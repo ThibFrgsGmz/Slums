@@ -1,0 +1,5 @@
+{
+    "C_Cpp.clang_format_path": "/usr/bin/clang-format",
+    "C_Cpp.clang_format_style": "Google",
+    "editor.formatOnSave": true
+}

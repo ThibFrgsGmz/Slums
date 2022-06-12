@@ -9,10 +9,10 @@ project(App VERSION 0.0.0.0 DESCRIPTION "A simple F´ application for templating
 # include all of the f prime core components and imports the make system.
 include("${FPRIME_FRAMEWORK_PATH}/cmake/FPrime.cmake")
 include("${FPRIME_FRAMEWORK_PATH}/cmake/FPrime-Code.cmake")
-include("${PROJECT_SOURCE_DIR}/../fprime-tiva/fprime-tiva.cmake")
+# include("${PROJECT_SOURCE_DIR}/../fprime-tiva/fprime-tiva.cmake")
 
 # include the component(s)
-# add_fprime_subdirectory(${PROJECT_SOURCE_DIR}/Blinker)
+add_fprime_subdirectory(${PROJECT_SOURCE_DIR}/Blinker)
 add_fprime_subdirectory(${PROJECT_SOURCE_DIR}/Top)
 
 # create the topology and deployment
